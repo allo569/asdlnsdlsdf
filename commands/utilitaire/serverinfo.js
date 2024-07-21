@@ -53,7 +53,7 @@ module.exports = {
 				.addField(`Nombre De Boost(s) <a:BoosterBadgesRoll:1264310583184850965> :`, `__${guild.premiumSubscriptionCount}__`, true)
 				.addField(`Nombre De Booster(s) <a:BoosterBadgesRoll:1264310583184850965> :`, `${boosters}`, true)
 				.addField(`Nombre De Rôle(s) :scroll: :`, `__${guild.roles.cache.size}__`, true)
-				.addField(`Nombre De Salon(s) <a:4_chat:1220445576467058739> :`, `__${guild.channels.cache.size}__`, true)
+				.addField(`Nombre De Salon(s) <:channel_forum_post:1264400538855014545> :`, `__${guild.channels.cache.size}__`, true)
 				.addField(`Nombre D'émoji(s) Total :package: :`, `__${guild.emojis.cache.size}__`, true)
 				.setImage(message.guild.bannerURL({size: 1024}))
 				.setFooter("La Création Du Serveur Remonte au :")
