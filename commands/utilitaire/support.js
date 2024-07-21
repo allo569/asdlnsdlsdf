@@ -23,9 +23,9 @@ module.exports = {
 
             const embed = new Discord.MessageEmbed()
             embed.setTitle(`Besoin D'aide ?`)
-            embed.setURL('https://discord.gg/PFTpUfJa')
+            embed.setURL('https://discord.gg/4S4d3cHtXx')
             embed.setColor(color)
-            embed.setDescription(`Pour rejoindre Le serveur support [Clique ici](https://discord.gg/PFTpUfJa)`)
+            embed.setDescription(`Pour rejoindre Le serveur support [Clique ici](https://discord.gg/4S4d3cHtXx)`)
             embed.setTimestamp()
             embed.setFooter(`${message.guild.name}`)
 
